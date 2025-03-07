@@ -1,0 +1,42 @@
+/* Variables */
+:root {
+    --titulo: "Instrument Sans", sans-serif;
+    --texto-normal: "Jaldi", sans-serif;
+    --color-primario: #8DB0C3;
+    --color-secundario: #273951;
+    --color-terciario: #F0EDCF;
+}
+
+
+/* Nav bar */
+
+body nav {
+    background-color: var(--color-terciario);
+    font-family: var(--texto-normal);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:black;
+}
+
+body nav .container-fluid .logo img {
+    max-height: 60px;
+    padding-left: 2rem;
+}
+
+body nav .container-fluid .navbar-collapse ul {
+    margin: 0 2rem 0 10px;
+}
+
+body nav .container-fluid .iconos a i{
+    color: black;
+    font-size: 1.5rem;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
