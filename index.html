@@ -46,13 +46,13 @@
                         <a class="nav-link active" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Productos</a>
+                        <a class="nav-link" href="#productos">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Reseñas</a>
+                        <a class="nav-link" href="#carrusel">Reseñas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contáctanos</a>
+                        <a class="nav-link" href="#contactanos">Contáctanos</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
@@ -75,10 +75,18 @@
 
 
     <!-- Carrusel -->
-    <div class="seccion-carrusel">
+    <div class="seccion-carrusel" id="carrusel">
         <div class="titulo-carrusel">
             <h1>Reseñas</h1>
             <img src="assets/Logo.png" alt="Logo de Sara's Secret" class="img-fluid">
+        </div>
+
+        <div class="texto-normal">
+            <p>
+                En Sara’s Secret, nos enorgullece ofrecer productos de belleza de alta 
+                calidad. Descubre lo que nuestros clientes opinan sobre su experiencia 
+                y los resultados que han obtenido.
+            </p>
         </div>
         
         <div class="carrusel">
@@ -104,7 +112,7 @@
                         <div class="card" style="width: 25rem;">
                             <img src="assets/Mujer2.jpg" class="card-img-top img-fluid" alt="Persona de reseña 3.">
                             <div class="card-body">
-                                <p class="card-text">¡Amo sus perfumes! Duran todo el día y huelen espectacular.” – Sofía R.</p>
+                                <p class="card-text">“¡Amo sus perfumes! Duran todo el día y huelen espectacular.” – Sofía R.</p>
                             </div>
                         </div>
                     </div>
@@ -122,6 +130,101 @@
     </div>
 
 
+    <!-- Sección de contáctanos -->
+     <div class="seccion-contactanos" id="contactanos">
+        <div class="linea-contactanos"></div>
+
+        <h1>Contáctanos</h1>
+
+        <div class="container formulario">
+            <form>
+                <div class="row align-items-start">
+                    <div class="col-lg-6 col-sm-12">
+                        <label class="texto-normal" for="nombre">Nombre:</label>
+                        <br>
+                        <input type="text" id="nombre" name="nombre">
+
+                        <br>
+                        <br>
+
+                        <label class="texto-normal" for="apellidos">Apellido(s):</label>
+                        <br>
+                        <input type="text" name="apellidos" id="apellidos">
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <div class="col-lg-6 col-sm-12">
+                        <label class="texto-normal" for="mensaje:">Mensaje:</label>
+                        <br>
+                        <textarea name="mensaje" id="mensaje"></textarea>
+
+                        <br>
+
+                        <button type="submit" class="boton">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="row justify-content-center align-items-start">
+                <div class="col-lg-4 col-sm-12">
+                    <h5>Información de contacto</h5>
+                    
+                    <!-- Teléfono con ícono -->
+                    <div class="contacto">
+                        <div class="icono">
+                            <i class="bi bi-telephone"></i>
+                        </div>
+                        <p>+52 777 123 xxxx</p>
+                    </div>
+                    
+                    <br>
+                    
+                    <!-- Correo con ícono -->
+                    <div class="contacto">
+                        <div class="icono">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <p>contacto@saras-secret.com</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-12 redes-sociales-seccion">
+                    <h5>Consulta nuestras redes sociales</h5>
+                    
+                    <!-- Íconos de redes sociales -->
+                    <div class="redes-sociales">
+                        <div class="icono">
+                            <a href="https://es-la.facebook.com/login/device-based/regular/login/"><i class="bi bi-facebook"></i></a>
+                        </div>
+                        <div class="icono">
+                            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                        </div>
+                        <div class="icono">
+                            <a href="https://www.tiktok.com/es/"><i class="bi bi-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-12 d-flex justify-content-center">
+                    <div class="fondo-imagen">
+                        <img src="assets/Logo.png" alt="Logo de Sara's Secret" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <p>&copy; 2025 Sara's Secret. Todos los derechos reservados.</p>
+    </div>
+    
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
