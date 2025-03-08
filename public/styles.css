@@ -16,6 +16,7 @@ body nav {
     font-size: 1.2rem;
     font-weight: bold;
     color:black;
+    max-width: 100%;
 }
 
 body nav .container-fluid .logo img {
@@ -24,14 +25,67 @@ body nav .container-fluid .logo img {
 }
 
 body nav .container-fluid .navbar-collapse ul {
-    margin: 0 2rem 0 10px;
+    margin: 0 2rem 0 1rem;
 }
 
 body nav .container-fluid .iconos a i{
     color: black;
     font-size: 1.5rem;
-    padding-right: 20px;
+    padding-right: 1rem;
 }
+
+
+/* Carrusel */
+
+body .seccion-carrusel .titulo-carrusel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+body .seccion-carrusel .titulo-carrusel img {
+    max-height: 60px;
+    margin-top: 20px;
+}
+
+body .seccion-carrusel .titulo-carrusel h1 {
+    font-family: var(--titulo);
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--color-primario);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+body .seccion-carrusel .carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    max-width: 100%;
+}
+
+body .seccion-carrusel .carrusel .carousel .carousel-inner .carousel-item .card .card-body {
+    background-color: var(--color-secundario);
+    color: white;
+    font-family: var(--texto-normal);
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--color-secundario);
+}
+
+
+
+
+
+
+
 
 
 
