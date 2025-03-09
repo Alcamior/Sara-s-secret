@@ -43,6 +43,89 @@ body nav .container-fluid .iconos a i{
     padding-right: 1rem;
 }
 
+body nav .container-fluid .navbar-collapse ul li {
+    margin-right: 30px; 
+}
+
+body nav .container-fluid .iconos a {
+    margin-right: 30px; 
+}
+
+
+/* Contenedor principal */
+
+.contenedor-principal {
+    display: flex;
+    width: 100%;
+    height: 100vh; 
+}
+
+.imagen-centro {
+    position: absolute; 
+    left: 60%; 
+    transform: translateX(-40%);
+    top: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    width: 50%;
+    height: 80%;
+}
+
+.seccion-izquierda {
+    flex: 3;
+    background-color: white;
+    padding: 2rem;
+}
+
+.seccion-derecha {
+    flex: 2.2;
+    background-color: var(--color-primario);
+}
+
+.seccion-izquierda h1 {
+    font-family: var(--titulo);
+    font-size: 4rem; 
+    font-weight: bold;
+    color: black; 
+    margin-top: 6rem; 
+}
+
+.seccion-izquierda h1 span {
+    font-family: var(--titulo);
+    font-size: 4rem; 
+    font-weight: bold;
+    color: var(--color-primario);
+    margin-top: 6rem; 
+}
+
+.seccion-izquierda p {
+    font-family: var(--texto-normal);
+    font-size: 1.7rem;
+    color: black;
+}
+
+.seccion-izquierda p .resaltado {
+    color: var(--color-primario); 
+}
+
+.seccion-izquierda button {
+    margin-top: 1rem; 
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    width: 30%;
+}
+
+.seccion-izquierda button:hover {
+    background-color: var(--color-secundario);
+}
+
 
 /* Carrusel */
 
@@ -136,7 +219,7 @@ body .seccion-contactanos .formulario .row input{
 }
 
 body .seccion-contactanos .formulario .row textarea {
-    height: 80px;
+    height: 180px;
     width: 60%;
 }
 
@@ -150,6 +233,11 @@ body .seccion-contactanos .formulario .row .boton {
     padding: 10px 20px;
     margin-top:5px;
     font-weight: bold;
+}
+
+body .seccion-contactanos .formulario .row .boton:hover {
+    background-color: var(--color-terciario);
+    color: var(--color-secundario);
 }
 
 
@@ -257,85 +345,4 @@ body .footer p{
 
 
 
-body nav .container-fluid .navbar-collapse ul li {
-    margin-right: 30px; 
-}
 
-body nav .container-fluid .iconos a {
-    margin-right: 30px; 
-}
-
-
-/* Contenedor principal */
-
-.contenedor-principal {
-    display: flex;
-    width: 100%;
-    height: 100vh; 
-}
-
-.imagen-centro {
-    position: absolute; 
-    left: 60%; 
-    transform: translateX(-40%);
-    top: 55%;
-    transform: translate(-50%, -50%);
-    z-index: 2; 
-    width: 50%;
-    height: 80%;
-}
-
-.seccion-izquierda {
-    flex: 3;
-    background-color: white;
-    padding: 2rem;
-}
-
-.seccion-derecha {
-    flex: 2.2;
-    background-color: var(--color-primario);
-}
-
-.seccion-izquierda h1 {
-    font-family: var(--titulo);
-    font-size: 4rem; 
-    font-weight: bold;
-    color: black; 
-    margin-top: 6rem; 
-}
-
-.seccion-izquierda h1 span {
-    font-family: var(--titulo);
-    font-size: 4rem; 
-    font-weight: bold;
-    color: var(--color-primario);
-    margin-top: 6rem; 
-}
-
-.seccion-izquierda p {
-    font-family: var(--texto-normal);
-    font-size: 1.7rem;
-    color: black;
-}
-
-.seccion-izquierda p .resaltado {
-    color: var(--color-primario); 
-}
-
-.seccion-izquierda button {
-    margin-top: 1rem; 
-    padding: 10px 20px;
-    font-size: 1.2rem;
-    background-color: var(--color-primario);
-    color: var(--color-secundario);
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    font-weight: bold;
-    width: 30%;
-}
-
-.seccion-izquierda button:hover {
-    background-color: var(--color-secundario);
-}

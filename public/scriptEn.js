@@ -13,7 +13,7 @@ document.getElementById('formComentario').addEventListener('submit', function(ev
         Swal.fire({
             icon: 'error',
             title: 'Oops...',
-            text: 'Por favor, completa todos los campos.',
+            text: 'Please, fill all the fields.',
         });
         return; // Detiene el envío si hay campos vacíos
     }
@@ -21,9 +21,9 @@ document.getElementById('formComentario').addEventListener('submit', function(ev
     // Si la validación es exitosa, mostrar mensaje de éxito
     Swal.fire({
         icon: 'success',
-        title: '¡Formulario enviado!',
-        text: 'Tus datos comentarios han sido guardados.',
-        confirmButtonText: 'Aceptar'
+        title: 'Form submitted!',
+        text: 'Thank you for contacting us. We will get back to you shortly.',
+        confirmButtonText: 'Accept'
     }).then(() => {
         // Envía el formulario manualmente si todo está correcto
         document.getElementById('formComentario').submit();

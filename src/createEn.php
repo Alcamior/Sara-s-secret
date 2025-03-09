@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $stmt->execute();
 
-    header("Location: ../index.html");
+    header("Location: ../index-english.html");
   
 }
 ?>

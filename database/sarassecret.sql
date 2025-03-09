@@ -6,4 +6,6 @@ CREATE TABLE `sarassecret`.`comentario` (
   `nombre` VARCHAR(45) NOT NULL,
   `apellidos` VARCHAR(100) NOT NULL,
   `comentario` VARCHAR(255) NOT NULL,
+  `email` VARCHAR(255) NOT NULL,
   PRIMARY KEY (`id`));
+
