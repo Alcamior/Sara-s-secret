@@ -186,90 +186,91 @@ body nav .container-fluid .iconos a {
 }
 
 /* Productos */
-    .productos {
-            text-align: center;
-            padding: 2rem;
-            font-family: var(--texto-normal);
-            background-color: var(--color-azulSecundario);
-    }
+.productos {
+    text-align: center;
+    padding: 2rem;
+    font-family: var(--texto-normal);
+    background-color: var(--color-azulSecundario);
+}
 
-    .productos h3{
-        font-weight: bold;
-    }
+.productos h3{
+    font-weight: bold;
+}
 
-    .productos-titulo {
-        font-family: var(--titulo);
-        font-size: 2.5rem;
-        color: white;
-        font-weight: bold;
-    }
+.productos-titulo {
+    font-family: var(--titulo);
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+}
 
-    .productos-subtitulo {
-        font-family: var(--texto-normal);
-        font-size: 1.5rem;
-        color: white;
-        margin-bottom: 2rem;
-    }
-    .productos h2 {
-        font-size: 2.5rem;
-        color: var(--color-secundario);
-        margin-bottom: 1.5rem;
-    }
+.productos-subtitulo {
+    font-family: var(--texto-normal);
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+.productos h2 {
+    font-size: 2.5rem;
+    color: var(--color-secundario);
+    margin-bottom: 1.5rem;
+}
 
-    .productos-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 1.5rem;
-        padding: 0 2rem;
-    }
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 0 2rem;
+    margin-top: 2rem;
+}
 
-    .producto {
-        background: var(--color-terciario);
-        padding: 1.5rem;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s;
-    }
+.producto {
+    background: var(--color-terciario);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
 
-    .producto:hover {
-        transform: scale(1.05);
-    }
+.producto:hover {
+    transform: scale(1.05);
+}
 
-    .producto img {
-        width: 100%;
-        height: 450px;
-        object-fit: cover;
-        border-radius: 10px;
-    }    
+.producto img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}    
 
-    .producto h3 {
-        font-size: 1.8rem;
-        color: var(--color-secundario);
-        margin-top: 1rem;
-    }
+.producto h3 {
+    font-size: 1.8rem;
+    color: var(--color-secundario);
+    margin-top: 1rem;
+}
 
-    .producto p {
-        font-size: 1.4rem;
-        color: black;
-    }
+.producto p {
+    font-size: 1.4rem;
+    color: black;
+}
 
-    .producto button {
-        margin-top: 1rem;
-        padding: 10px 20px;
-        font-size: 1.2rem;
-        background-color: var(--color-primario);
-        color: var(--color-secundario);
-        border: none;
-        border-radius: 20px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-        font-weight: bold;
-    }
+.producto button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
 
-    .producto button:hover {
-        background-color: var(--color-secundario);
-        color: white;
-    }
+.producto button:hover {
+    background-color: var(--color-secundario);
+    color: white;
+}
+
 
 /* Carrusel */
 
@@ -344,6 +345,12 @@ body .seccion-contactanos h1 {
     color: black;
     margin-top: 2rem;
     margin-left: 40px;
+}
+
+body .seccion-contactanos p{
+    color: black;
+    margin-left: 40px;
+    margin-bottom: 30px;
 }
 
 body .seccion-contactanos .formulario .row input,
