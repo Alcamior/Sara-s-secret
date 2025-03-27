@@ -499,3 +499,11 @@ body .footer p{
         height: 630px;
     }    
 }
+
+
+/* Ícono de accesibilidad */
+div[class*="userway"] {
+    position: fixed !important;
+    bottom: 20px !important;   
+    left: 20px !important;      
+}
