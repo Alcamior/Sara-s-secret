@@ -1,9 +1,9 @@
 <?php
 
-    $host = 'mysql.webcindario.com';
+    $host = 'localhost';
     $db = 'sarassecret';
-    $user = 'sarassecret';
-    $pass = 'password123';
+    $user = 'root';
+    $pass = '';
 
     try {
         $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
