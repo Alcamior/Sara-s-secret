@@ -43,40 +43,36 @@ body nav {
     max-width: 100%;
 }
 
+body nav .container-fluid picture {
+    margin-right: auto;
+}
+
 body nav .container-fluid picture img {
     max-height: 60px;
-    padding-left: 2rem;
 }
 
-body nav .container-fluid .navbar-collapse ul {
-    margin: 0 2rem 0 1rem;
+body nav .navbar-collapse {
+    justify-content: flex-end;
 }
 
-body nav .container-fluid .iconos a i{
-    color: black;
-    font-size: 1.5rem;
-    padding-right: 1rem;
+body nav .navbar-nav li {
+    margin-right: 30px;
 }
 
-body nav .container-fluid .navbar-collapse ul li {
-    margin-right: 30px; 
+body nav .navbar-nav li:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
 }
 
-body nav .container-fluid .iconos a {
-    margin-right: 30px; 
-}
 
 @media (max-width: 768px) {
     .navbar-collapse {
-        display: flex;
-        justify-content: flex-end; 
-        width: 100%;
+        text-align: right;
     }
 
-    .iconos {
-        order: -1; 
-        display: flex;
-        margin-left: auto; 
+    .dropdown-menu {
+        width: auto !important;
+        min-width: 200px;
     }
 }
 

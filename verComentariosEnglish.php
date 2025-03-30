@@ -26,7 +26,6 @@
     <link rel="stylesheet" href="../public/styles.css">
 </head>
 <body>
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-md fixed-top ms-auto">
         <div class="container-fluid d-flex align-items-center">
             
@@ -38,43 +37,37 @@
                 <img src="../assets/Logo.png" alt="Logo de Sara's Secret" class="img-fluid">
             </picture>
     
-            <!-- Botón de menú para teléfonos -->
+            <!-- Menu button for phones -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
     
-            <!-- Menú -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav d-flex flex-wrap">
+            <!-- Menu -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="../index.html#contenedor-principal">Home</a>
+                        <a class="nav-link active" href="../index-english.html#contenedor-principal">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#productos">Products</a>
+                        <a class="nav-link" href="../index-english.html#productos">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#carrusel">Reviews</a>
+                        <a class="nav-link" href="../index-english.html#carrusel">Reviews</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#contactanos">Contact Us</a>
+                        <a class="nav-link" href="../index-english.html#contactanos">Contact Us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
                             More
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu dropdown-menu-end">
                             <li><a class="dropdown-item" href="../index.html">Español</a></li>
                             <li><a class="dropdown-item" href="readEnglish.php">Check out our reviews</a></li>
                             <li><a class="dropdown-item" href="https://techshop.webcindario.com/" target="_blank">Link to team's 9 website</a></li>
                         </ul>
                     </li>
                 </ul>
-            </div>
-    
-            <!-- Íconos -->
-            <div class="iconos">
-                <a href="#"><i class="bi bi-person"></i></a>
-                <a href="#"><i class="bi bi-cart"></i></a>
             </div>
         </div>
     </nav>
