@@ -536,3 +536,14 @@ div[class*="userway"] {
     font-size: 1.2rem;
     color: #6c757d;
 }
+
+.comentario-card a{
+    text-decoration: none;
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: var(--color-primario);
+}
+
+.comentario-card a:hover{
+    color: var(--color-secundario);
+}

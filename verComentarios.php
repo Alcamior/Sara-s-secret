@@ -56,6 +56,9 @@
             <div class="comentario-card">
                 <h5><?php echo htmlspecialchars($comentario['nombre'] . ' ' . $comentario['apellidos']); ?></h5>
                 <p><?php echo htmlspecialchars($comentario['comentario']); ?></p>
+                <a href="edit.php?id=<?php echo $comentario['id']; ?>"><i class="bi bi-pencil-square"></i></a>
+                <a href="delete.php?id=<?php echo $comentario['id']; ?>"><i class="bi bi-trash"></i></a>
+                <br>
                 <small class="text-muted">✉️ <?php echo htmlspecialchars($comentario['email']); ?></small>
             </div>
         <?php endforeach; ?>
