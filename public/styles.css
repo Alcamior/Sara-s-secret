@@ -353,8 +353,8 @@ body .seccion-contactanos p{
     margin-bottom: 30px;
 }
 
-body .seccion-contactanos .formulario .row input,
-body .seccion-contactanos .formulario .row textarea {
+input,
+textarea{
     font-family: var(--texto-normal);
     font-size: 1rem;
     color: black;
@@ -364,17 +364,17 @@ body .seccion-contactanos .formulario .row textarea {
     padding-left: 10px;
 }
 
-body .seccion-contactanos .formulario .row input{
+body input{
     height: 40px;
     width: 60%;
 }
 
-body .seccion-contactanos .formulario .row textarea {
+body textarea {
     height: 180px;
     width: 60%;
 }
 
-body .seccion-contactanos .formulario .row .boton {
+.boton {
     background-color: var(--color-secundario);
     color: white;
     font-family: var(--texto-normal);
@@ -386,14 +386,14 @@ body .seccion-contactanos .formulario .row .boton {
     font-weight: bold;
 }
 
-body .seccion-contactanos .formulario .row .boton:hover {
+.boton:hover {
     background-color: var(--color-terciario);
     color: var(--color-secundario);
 }
 
 @media (max-width: 768px){
-    body .seccion-contactanos .formulario .row input,
-    body .seccion-contactanos .formulario .row textarea{
+    input,
+    textarea{
         width: 80%;
     }
 }
