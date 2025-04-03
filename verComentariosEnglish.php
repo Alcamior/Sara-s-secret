@@ -90,7 +90,7 @@
             $comentarios = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
             // Pasar los comentarios a la vista
-            include('../verComentarios.php');
+            include('../verComentariosE.php');
         ?>
             
     </main>
