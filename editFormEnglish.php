@@ -75,16 +75,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="../index.html#contenedor-principal">Home</a>
+                        <a class="nav-link active" href="../index-english.html#contenedor-principal">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#productos">Products</a>
+                        <a class="nav-link" href="../index-english.html#productos">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#carrusel">Reviews</a>
+                        <a class="nav-link" href="../index-english.html#carrusel">Reviews</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#contactanos">Contact Us<</a>
+                        <a class="nav-link" href="../index-english.html#contactanos">Contact Us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
